@@ -112,7 +112,7 @@ LOGLEVEL=DEBUG uv run main.py > inventory.json
 
 ### Royal TSX Dynamic Folder
 
-To automatically refresh your inventory in Royal TSX, set up a Dynamic Folder:
+To automatically refresh your inventory in Royal TSX, set up a [Dynamic Folder](https://docs.royalapps.com/r2023/royalserver/royal-server-configuration/dynamic-folder.html):
 
 1. In Royal TSX, create a new **Dynamic Folder**
 2. Set the **Script Interpreter** to `/bin/zsh`
