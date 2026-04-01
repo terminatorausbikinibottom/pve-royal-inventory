@@ -1,7 +1,7 @@
 [project]
 name = "pve-royal-inventory"
 version = "0.1.0"
-description = "Add your description here"
+description = "Generate a Royal TSX JSON document from Proxmox VE inventory"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [

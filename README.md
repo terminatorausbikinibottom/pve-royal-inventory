@@ -12,7 +12,7 @@ Generate a Royal TSX JSON document from Proxmox VE inventory, creating SSH conne
 
 ## Prerequisites
 
-- Python 3.8+
+- Python 3.12+
 - [uv](https://github.com/astral-sh/uv) (recommended) or pip
 - Proxmox VE cluster with API access
 - Royal TSX (for importing the generated document)
@@ -23,7 +23,7 @@ Generate a Royal TSX JSON document from Proxmox VE inventory, creating SSH conne
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://codeberg.org/terminatorausbikinibottom/pve-royal-inventory.git
    cd pve-royal-inventory
    ```
 
@@ -157,11 +157,10 @@ The generated JSON follows this structure:
 {
   "Objects": [
     {
-      "Type": "Credentials",
+      "Type": "Credential",
       "Name": "Services SSH",
       "UserName": "your-username",
       "ID": "credential-id",
-      "Password": "your-password",
       "Path": "/Credentials"
     },
     {
